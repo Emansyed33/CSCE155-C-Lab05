@@ -19,10 +19,16 @@ double rgbIntToFloat(int c);
  * given integer values.
  */
 int max(int x, int y, int z);
-
+int min(int x, int y, int z);
 /**
  * Returns a gray-scaled RGB value of the three
  * given RGB values using the average technique.
  *
  */
+
 int toGrayScaleAverage(int r, int g, int b);
+int toGrayScaleLightness(int r, int g, int b);
+int toGrayScaleLuminosity(int r, int g, int b);
+int toSepiaRed(int r, int g, int b);
+int toSepiaGreen(int r, int g, int b);
+int toSepiaBlue(int r, int g, int b);
